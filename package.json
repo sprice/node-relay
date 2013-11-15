@@ -9,6 +9,7 @@
   "author": "CYLON RAIDER",
   "license": "MIT",
   "dependencies": {
-    "request": "~2.27.0"
+    "request": "~2.27.0",
+    "underscore": "*"
   }
 }
