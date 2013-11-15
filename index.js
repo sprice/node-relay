@@ -20,5 +20,6 @@ function calculateMargin(teams) {
         if (teams[i.toString()]["points"] > teams[bestTeam]["points"]) bestTeam = i.toString();
         if (teams[i.toString()]["name"] == "Cylon Raider") ourTeam = i.toString();
     }
-    console.log("Cylon raiders need only " + (teams[bestTeam]["points"] - teams[ourTeam]["points"]) + " more points to win!");
+    var pointsNeeded = (teams[bestTeam]["points"] - teams[ourTeam]["points"]);
+    console.log("Cylon raiders need only " + pointsNeeded + " more points to win!");
 }
